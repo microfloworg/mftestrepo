@@ -1,0 +1,1 @@
+{"host":"localhost","protocol":"http","basePath":"/v2","port":"8090","rules":[{"path":"/users","method":"post","operationId":"createUser","requestRules":[],"responseRules":[]}]}
