@@ -1,0 +1,432 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "ipaas_1454_null",
+    "x-lastModified": "Dec 02, 2016 04:14AM PST"
+  },
+  "paths": {
+    "/null": {
+      "post": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/PostResponse"
+            },
+            "examples": {
+              "application/json": {
+                "Book": [
+                  {
+                    "isbn": null,
+                    "name": null,
+                    "description": null,
+                    "authorName": null,
+                    "releaseDate": "2012-01-01",
+                    "vintage": false,
+                    "signed": false,
+                    "price": 0,
+                    "id": null
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/PostRequest"
+            }
+          }
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/GetResponse"
+            },
+            "examples": {
+              "application/json": {
+                "Book": [
+                  {
+                    "isbn": null,
+                    "name": null,
+                    "description": null,
+                    "authorName": null,
+                    "releaseDate": "2012-01-01",
+                    "vintage": false,
+                    "signed": false,
+                    "price": 0,
+                    "id": null
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "parameters": []
+      },
+      "put": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/PutResponse"
+            },
+            "examples": {
+              "application/json": {
+                "Book": [
+                  {
+                    "isbn": null,
+                    "name": null,
+                    "description": null,
+                    "authorName": null,
+                    "releaseDate": "2012-01-01",
+                    "vintage": false,
+                    "signed": false,
+                    "price": 0,
+                    "id": null
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/PutRequest"
+            }
+          }
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/DeleteResponse"
+            },
+            "examples": {
+              "application/json": {
+                "Book": [
+                  {
+                    "isbn": null,
+                    "name": null,
+                    "description": null,
+                    "authorName": null,
+                    "releaseDate": "2012-01-01",
+                    "vintage": false,
+                    "signed": false,
+                    "price": 0,
+                    "id": null
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "parameters": []
+      }
+    }
+  },
+  "definitions": {
+    "PostRequest": {
+      "type": "object",
+      "properties": {
+        "Book": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "isbn": {
+                "type": "null"
+              },
+              "name": {
+                "type": "null"
+              },
+              "description": {
+                "type": "null"
+              },
+              "authorName": {
+                "type": "null"
+              },
+              "releaseDate": {
+                "type": "string",
+                "format": "date",
+                "default": "2012-01-01"
+              },
+              "vintage": {
+                "type": "boolean",
+                "default": false
+              },
+              "signed": {
+                "type": "boolean",
+                "default": false
+              },
+              "price": {
+                "type": "integer",
+                "default": 0
+              },
+              "id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    },
+    "PostResponse": {
+      "type": "object",
+      "properties": {
+        "Book": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "isbn": {
+                "type": "null"
+              },
+              "name": {
+                "type": "null"
+              },
+              "description": {
+                "type": "null"
+              },
+              "authorName": {
+                "type": "null"
+              },
+              "releaseDate": {
+                "type": "string",
+                "format": "date",
+                "default": "2012-01-01"
+              },
+              "vintage": {
+                "type": "boolean",
+                "default": false
+              },
+              "signed": {
+                "type": "boolean",
+                "default": false
+              },
+              "price": {
+                "type": "integer",
+                "default": 0
+              },
+              "id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    },
+    "GetResponse": {
+      "type": "object",
+      "properties": {
+        "Book": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "isbn": {
+                "type": "null"
+              },
+              "name": {
+                "type": "null"
+              },
+              "description": {
+                "type": "null"
+              },
+              "authorName": {
+                "type": "null"
+              },
+              "releaseDate": {
+                "type": "string",
+                "format": "date",
+                "default": "2012-01-01"
+              },
+              "vintage": {
+                "type": "boolean",
+                "default": false
+              },
+              "signed": {
+                "type": "boolean",
+                "default": false
+              },
+              "price": {
+                "type": "integer",
+                "default": 0
+              },
+              "id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    },
+    "PutRequest": {
+      "type": "object",
+      "properties": {
+        "Book": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "isbn": {
+                "type": "null"
+              },
+              "name": {
+                "type": "null"
+              },
+              "description": {
+                "type": "null"
+              },
+              "authorName": {
+                "type": "null"
+              },
+              "releaseDate": {
+                "type": "string",
+                "format": "date",
+                "default": "2012-01-01"
+              },
+              "vintage": {
+                "type": "boolean",
+                "default": false
+              },
+              "signed": {
+                "type": "boolean",
+                "default": false
+              },
+              "price": {
+                "type": "integer",
+                "default": 0
+              },
+              "id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    },
+    "PutResponse": {
+      "type": "object",
+      "properties": {
+        "Book": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "isbn": {
+                "type": "null"
+              },
+              "name": {
+                "type": "null"
+              },
+              "description": {
+                "type": "null"
+              },
+              "authorName": {
+                "type": "null"
+              },
+              "releaseDate": {
+                "type": "string",
+                "format": "date",
+                "default": "2012-01-01"
+              },
+              "vintage": {
+                "type": "boolean",
+                "default": false
+              },
+              "signed": {
+                "type": "boolean",
+                "default": false
+              },
+              "price": {
+                "type": "integer",
+                "default": 0
+              },
+              "id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    },
+    "DeleteResponse": {
+      "type": "object",
+      "properties": {
+        "Book": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "isbn": {
+                "type": "null"
+              },
+              "name": {
+                "type": "null"
+              },
+              "description": {
+                "type": "null"
+              },
+              "authorName": {
+                "type": "null"
+              },
+              "releaseDate": {
+                "type": "string",
+                "format": "date",
+                "default": "2012-01-01"
+              },
+              "vintage": {
+                "type": "boolean",
+                "default": false
+              },
+              "signed": {
+                "type": "boolean",
+                "default": false
+              },
+              "price": {
+                "type": "integer",
+                "default": 0
+              },
+              "id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
