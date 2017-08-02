@@ -1,0 +1,81 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1",
+    "title": "g1",
+    "x-lastModified": "Aug 02, 2017 14:42PM PST"
+  },
+  "paths": {
+    "/bw": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [
+          {
+            "name": "fdsafadsfdasf",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "type": "string",
+            "format": ""
+          }
+        ],
+        "operationId": "getBw"
+      },
+      "post": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [],
+        "operationId": "postBw"
+      },
+      "put": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [],
+        "operationId": "putBw"
+      },
+      "patch": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [],
+        "operationId": "patchBw"
+      },
+      "delete": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [],
+        "operationId": "deleteBw"
+      }
+    }
+  }
+}
